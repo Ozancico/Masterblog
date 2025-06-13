@@ -84,7 +84,7 @@ def fetch_post_by_id(post_id):
 def update(post_id):
     """
     Handles the update of existing blog entries.
-    GET: Displays the update form with current post data
+    GET: Displays the update form with current Post data
     POST: Updates the post and redirects to index
     """
     post = fetch_post_by_id(post_id)

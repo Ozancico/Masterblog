@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Flask Blog</title>
+    <title>👁‍🗨My Flask Blog</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to My Flask Blog!</h1>
+        <h1>📢Welcome to My Flask Blog📢</h1>
         <div class="blog-post">
             {% for post in blog_entries %}
             <div class="post">
                 <h2>{{ post.title }}</h2>
-                <p><em>Written by {{ post.author }}</em></p>
+                <p><em>Written by {{ post.author }}...</em></p>
                 <p>{{ post.content }}</p>
                 <div class="post-actions">
                     <a href="{{ url_for('update', post_id=post.id) }}" class="update-button">Update</a>

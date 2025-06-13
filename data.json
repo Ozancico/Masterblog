@@ -12,5 +12,12 @@
         "title": "Second Post",
         "content": "This is another post.",
         "likes": 1
+    },
+    {
+        "id": 3,
+        "title": "My first Blog",
+        "author": "Ozan Cicek",
+        "content": "I like Flask !",
+        "likes": 0
     }
 ]
